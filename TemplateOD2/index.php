@@ -8,7 +8,11 @@
    <body>
       <?php
          require("variables.php");
+         $num = 0;
+         foreach($Fruitsoorten as $value){
+            $num++;
+            echo "<p>Fruitsoort: $num: $value, <br> </p>";
+         }
       ?>
-      <?= "<p>Voornaam: $voornaam<br>Achternaam: $achternaam<br></p>"?>
    </body>
 </html>

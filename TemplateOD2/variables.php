@@ -1,4 +1,3 @@
 <?php
-   $voornaam = "Enes";
-   $achternaam = "Tekinbas";
+   $Fruitsoorten = ["Ananas", "Mango", "Kiwi"];
 ?>
